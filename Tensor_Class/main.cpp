@@ -64,6 +64,8 @@ int main()
 		Dataset A("name");
 		A.importMnist("t10k-images.idx3-ubyte", "t10k-labels.idx1-ubyte");
 
+		cout << "Hello world";
+
 	}
 	catch(length_error& ex) 
 	{
